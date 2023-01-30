@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.News {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.NewsItem {
+  border-bottom: 1px solid black;
+  margin: 20px;  
+}
+
+.NewsItem__title {
+  display: block;
+  font-weight: 800
+}
+
+.NewsItem__category, .NewsItem__date {
+  display: block;
+}
